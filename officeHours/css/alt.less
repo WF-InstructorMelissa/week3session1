@@ -31,5 +31,47 @@ body {
     #section1 {
         .flexrow();
         align-items: flex-start;
+
+        section {
+            .flexcolumn();
+            align-items: flex-start;
+            margin: 1em;
+            padding: 1em;
+        }
+        #sidebar {
+            .flexcolumn();
+
+            #imgs {
+                .flexrow();
+                flex-wrap: wrap;
+                width: 350px;
+
+                img {
+                    max-width: 150px;
+                    margin: .5em;
+                }
+            }
+        }
+    }
+    #section2{
+        .flexcolumn();
+        align-items: flex-start;
+
+        .row {
+            .flexrow();
+
+            img {
+                max-width: 150px;
+                margin: .5em;
+            }
+        }
+        .altRow {
+            .altflexrow();
+
+            img {
+                max-width: 150px;
+                margin: .5em;
+            }
+        }
     }
 }
