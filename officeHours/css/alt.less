@@ -1,0 +1,35 @@
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.altflexrow {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+@font: #ff7f50;
+@border: 1px dotted @font;
+
+body {
+    background-color: black;
+    color: @font;
+    .flexcolumn();
+    border: @border;
+
+    header {
+        .flexcolumn();
+    }
+    #section1 {
+        .flexrow();
+        align-items: flex-start;
+    }
+}
