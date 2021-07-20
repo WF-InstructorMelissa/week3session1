@@ -1,0 +1,92 @@
+This Week:
+-Exams
+-Shedule assignments and reading
+-Speaking
+    - Answer, Guess, Ask, You only get out what you put in.
+
+Lecture
+-Reasoning for algos
+-Java vs. JavaScript
+-HTML,CSS,JS / skeleton,tissue,CNS
+-Node, CodeRunner
+    https://www.youtube.com/watch?v=4AK4x4t-mHE
+
+JS & The HTML File
+-Within Script tag
+-Alert
+-Linking JS
+-Bracket Pair Colorizer
+
+Printing
+-alert()
+-console.log()
+
+Variables
+-Declaring
+-var, let, const
+    https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/
+-Defining
+
+Variable Types
++Primitive Data Types
+    -Numbers - int, float
+    -String - string, char
+        -single, double quotes, backticks ("Don't")
+    -Boolean - true, false
+    -Undefined
+    -Null
++Abstract Data Types
+    -Object
+    -Array
+
+Comparison Operators
+==  equal to
+!=  not equal to
+=== exactly equal to
+!== not exactly equal to
+>   greater than
+<   less than
+>=  greater than or equal to
+<+  less than or equal to
+=   assignment operator, MAKES one thing equal to another, ASSIGNS a value
+
+Arithmetic Operators
++   addition
+-   subtraction
+*   multiplication
+**  exponent
+/   division
+%   modulo
+++  increment
+--  decrement
+
+Conditionals
+-if
+-else
+-else if
+
+Loops
+-for
+-while
+
+Ternary Expressions
+    https://www.youtube.com/watch?v=70GmtV-5Ggo
+
+T-Diagrams
+-PythonTutor
+
+Concatenation
+- +
+- ,
+- string literals (ES6)
+
+References/Resources:
+-Code challenges
+https://www.freecodecamp.org/news/the-10-most-popular-coding-challenge-websites-of-2016-fb8a5672d22f/
+https://www.freecodecamp.org/news/the-8-most-popular-coding-challenge-websites-of-2020/
+-JS Naming Conventions
+https://javascript.plainenglish.io/javascript-naming-convention-best-practices-b2065694b7d
+https://www.freecodecamp.org/news/javascript-naming-conventions-dos-and-don-ts-99c0e2fdd78a/
+-Fun creating JavaScript games
+https://www.youtube.com/watch?v=QTcIXok9wNY
+https://www.youtube.com/watch?v=CeUGlSl2i4Q
