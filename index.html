@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Exam Demo</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="header">
+		<div class="header-logo">
+			<div class="logo-arrows">
+				<img src="images/leftArrow.jpg" alt="left arrow" onclick="leftImageClicked()" />
+				<img src="images/logo.jpg" alt="site logo" id="siteLogo" />
+				<img src="images/rightArrow.jpg" alt="right arrow" onclick="rightImageClicked()"/>
+			</div>
+			<h1>Web Fun Store</h1>
+		</div>
+		<nav>
+			<a href="#">Home</a>
+			<a href="#">About</a>
+		</nav>
+	</div>
+	<div class="main">
+		<h2 class="productHeadingStyle" onclick="hideProductsHeading()" id="productHeading">Products</h2>
+		<div id="items" onclick="unhideProductsHeading()">
+			<div class="item">
+				<img src="images/mug.jpeg" alt="mug" />
+				<p>Mug</p>
+				<p>$10.00</p>
+			</div>
+			<div class="item">
+				<img src="images/mug02.jpg" alt="mug02" />
+				<p>Mug 2</p>
+				<p>$12.00</p>
+			</div>
+			<div class="item">
+				<img src="images/notebook.png" alt="notebook" />
+				<p>Notebook</p>
+				<p>$22.00</p>
+			</div>
+			<div class="item">
+				<img src="images/sign01.jpg" alt="sign 1" />
+				<p>Sign 1</p>
+				<p>$52.00</p>
+			</div>
+			<div class="item">
+				<img src="images/sign02.png" alt="sign 2" />
+				<p>Sign 2</p>
+				<p>$42.00</p>
+			</div>
+		</div>
+	</div>
+	<div>
+		<h4>Get in touch</h4>
+		<form>
+			<div>
+				<label for="username">Name</label>
+				<input type="text" name="username" id="username" placeholder="Name Please..." />
+			</div>
+			<div>
+				<label for="email">Email</label>
+				<input type="text" name="email" id="email" placeholder="Email Address Please..." />
+			</div>
+			<div>
+				<label for="message">Message</label>
+				<textarea name="message" id="message" cols="30" rows="5" placeholder="Your message to us is important"></textarea>
+			</div>
+			<button onclick="alertUser()">Submit</button>
+		</form>
+	</div>
+	<script src="./js/scripts.js"></script>
+</body>
+</html>
