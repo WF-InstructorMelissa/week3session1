@@ -1,0 +1,75 @@
+* {
+  border: 1px dotted red;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background-color: cornflowerblue;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+}
+.start {
+  align-items: flex-start;
+}
+.space {
+  justify-content: space-around;
+}
+button {
+  background-color: cornflowerblue;
+  color: black;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid black;
+}
+hr {
+  background-color: black;
+  height: 3px;
+  border-radius: 50%;
+}
+label {
+  margin: .5em;
+}
+.red, .blue {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
